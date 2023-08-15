@@ -1,0 +1,28 @@
+/* Estilos para el contenedor */
+body{
+  background:white;
+}
+h1{
+  text-align: center;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+.photo {
+  
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+.photo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.photo:hover {
+  transform: scale(1.03);
+}
